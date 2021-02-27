@@ -32,10 +32,11 @@ The content of the document......
 </body>
 
 </html>
-#### attributes:
+### Attributes:
+
 * id attribute:it is used to uniquely identify that element from other elements on the page.
 * class attribute:it is used to specifies one or more class names for an element.
-## Process and Design
+### Process and Design
 It's important to understand some qousetions:
  1. who are your target ?
  2. what information they want to find ?
