@@ -22,15 +22,13 @@ Each new version was designed to be an improvement on the last (with new element
 Because there have been several versions of HTML, each web page should begin with a DOCTYPE declaration to tell a browser which version of HTML the page is using (although browsers usually display the page even if it is not included).
  ### DOCTYPE Example :
   <!DOCTYPE html>
-<html>
+< <html>
 <head>
 <title>Title of the document</title>
 </head>
-
 <body>
 The content of the document......
 </body>
-
 </html>
 
 ### Attributes:
@@ -46,4 +44,33 @@ It's important to understand some qousetions:
 * Wireframes allow you to organize the information thatwill need to go on each page.
 * Design is about communication.
 *  Visual hierarchy helpsvisitors understand what you are trying to tell them. 
-# 
+# Java script
+## What is Java script?
+Java script is a scripting language that enables you to create dynamically updating content.
+### First  you need to know how JavaScript language will fit together with the HTML and CSS in your web pages. 
+#### 1. JavaScript language care about behavior layer, You can create js file if end with this extension (.js) 
+#### 2. HTML care about content layer, You can create js file if end with this extension(.HTML) 
+#### 3. CSS language care about presentation layer, You can create js file if end with this extension(.CSS)
+The JavaScript is added last and enhances the usability o the page or the experience of interacting with the site.Keeping it separate means that the page still works if the user cannot load or run the JavaScript. (Links to an external site.)
+In js we have three types of date 
+1. number (1,2,5.0) 
+2. strings("5" ,"h2o","gh") 
+3. boolean(true(1),false(0)
+### Some rules in js:
+1. Variable(var) is a way to pro grammatically reference a previously assigned value. 
+2. to write html in js use document .write( ' <h3>' +greeting + ' </ h3> ');
+3. To link js with html use <script> element,You may see JavaScript in the HTML between opening <script> and closing </script> tags
+4. to write if statement first you should variables are already declared than this the structure of if statement
+if (hourNow > 18) { 
+greeting= 'Good evening!'; 
+else if (hourNow > 12) { 
+greeting = ' Good afternoon!'; 
+else if (hourNow > 0) { 
+greeting = 'Good morni ng!'; 
+else { 
+greeting = 'Welcome! ' ;
+### SYNTAX AND GRAMMAR:
+ like any new language, there are new words to learn (the vocabulary) and rules for how these can be put together (the grammar and syntax of the language)
+ You should write comments to explain what your code does. They help make your code easier to read and understand. This can help you and others who read your code you can use //
+ 
+
