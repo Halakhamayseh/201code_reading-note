@@ -20,8 +20,7 @@ Some examples codes in Html and which indicate to:
 Each new version was designed to be an improvement on the last (with new elements and attributes added and older code removed).
 ### DOCTYPES
 Because there have been several versions of HTML, each web page should begin with a DOCTYPE declaration to tell a browser which version of HTML the page is using (although browsers usually display the page even if it is not included).
- 
- DOCTYPE Example :
+ ### DOCTYPE Example :
   <!DOCTYPE html>
 <html>
 <head>
