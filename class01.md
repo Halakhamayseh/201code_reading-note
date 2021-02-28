@@ -8,12 +8,12 @@ Some examples codes in Html and which indicate to:
 * < img > images in document
 * < ol > is an ordered list
 * < ul > for an unordered list
-* <nav> tag defines a set of navigation links.
-* <div> tag defines a division or a section in an HTML document.
-* <footer> defines a footer for a document or section.
-* <a> link.
-* <p>  paragraph.
-## What versions of HTML:
+* <nav> tag defines a set of navigation links.[link]()
+* <div> tag defines a division or a section in an HTML document.[link]()
+* <footer> defines a footer for a document or section.[link]()
+* <a> link.[link]()
+* <p>  paragraph.[link]()
+##What versions of HTML:
 * HTML 4 released in 1997.
 * XHTML 1.0 released in 2000.
 * HTML 5 released in 2000
@@ -64,5 +64,3 @@ In js we have three types of date
 ### SYNTAX AND GRAMMAR:
  like any new language, there are new words to learn (the vocabulary) and rules for how these can be put together (the grammar and syntax of the language)
  You should write comments to explain what your code does. They help make your code easier to read and understand. This can help you and others who read your code you can use //
- 
-
