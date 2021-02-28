@@ -11,8 +11,8 @@ Some examples codes in Html and which indicate to:
 * < nav > ```tag defines a set of navigation links```.[link](https://www.w3schools.com/tags/tag_nav.asp)
 * < div > ```tag defines a division or a section in an HTML document```.[link](https://www.w3schools.com/tags/tag_div.asp)
 * < footer > ```defines a footer for a document or section```.[link](https://www.w3schools.com/tags/tag_footer.asp)
-* < a > tag defines a hyperlink, which is used to link from one page to another.[link](https://www.w3schools.com/tags/tag_a.asp)
-* < p > tag defines a paragraph.[link](https://www.w3schools.com/tags/tag_doctype.asp)
+* < a > ```tag defines a hyperlink, which is used to link from one page to another```.[link](https://www.w3schools.com/tags/tag_a.asp)
+* < p > tag defines a paragraph.
 ## What versions of HTML:
 * HTML 4 released in 1997.
 * XHTML 1.0 released in 2000.
