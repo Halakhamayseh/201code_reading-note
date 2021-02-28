@@ -22,7 +22,7 @@ Each new version was designed to be an improvement on the last (with new element
 Because there have been several versions of HTML, each web page should begin with a DOCTYPE declaration to tell a browser which version of HTML the page is using (although browsers usually display the page even if it is not included).
  
  ```
- DOCTYPE Example  [link](https://www.w3schools.com/tags/tag_doctype.asp)
+ DOCTYPE Example  
  <!DOCTYPE html>
 < <html>
 <head>
@@ -33,6 +33,7 @@ The content of the document......
 </body>
 </html>
 ```
+[link](https://www.w3schools.com/tags/tag_doctype.asp)
 ### Attributes:
 * id attribute:it is used to uniquely identify that element from other elements on the page.
 * class attribute:it is used to specifies one or more class names for an element.
