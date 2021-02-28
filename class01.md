@@ -33,9 +33,7 @@ The content of the document......
 </body>
 </html>
 ```
-
 ### Attributes:
-
 * id attribute:it is used to uniquely identify that element from other elements on the page.
 * class attribute:it is used to specifies one or more class names for an element.
 ### Process and Design
@@ -59,9 +57,9 @@ In js we have three types of date
 1. number (1,2,5.0) 
 2. strings("5" ,"h2o","gh") 
 3. boolean(true(1),false(0)
-### Some rules in js:
+### Some rules in JS:
 * Variable(var) is a way to pro grammatically reference a previously assigned value. 
-* to write html in js use document .write (<h3>' +greeting + </ h3>);
+* to write html in js use document .write (< h3 > + greeting + </ h3 >);
 * To link js with html use <script> element,You may see JavaScript in the HTML between opening <script> and closing </script> tags
 * To write if statement first you should variables are already declared than this the structure of if statement.
 ### SYNTAX AND GRAMMAR:
