@@ -51,7 +51,7 @@ Java script is a scripting language that enables you to create dynamically updat
 #### 1. JavaScript language care about behavior layer, You can create js file if end with this extension (.js) 
 #### 2. HTML care about content layer, You can create js file if end with this extension(.HTML) 
 #### 3. CSS language care about presentation layer, You can create js file if end with this extension(.CSS)
-The JavaScript is added last and enhances the usability o the page or the experience of interacting with the site.Keeping it separate means that the page still works if the user cannot load or run the JavaScript. (Links to an external site.)
+The JavaScript is added last and enhances the usability o the page or the experience of interacting with the site.Keeping it separate means that the page still works if the user cannot load or run the JavaScript.
 In js we have three types of date 
 1. number (1,2,5.0) 
 2. strings("5" ,"h2o","gh") 
