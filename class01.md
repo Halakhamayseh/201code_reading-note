@@ -8,11 +8,11 @@ Some examples codes in Html and which indicate to:
 * < img > images in document
 * < ol > is an ordered list
 * < ul > for an unordered list
-* <nav> tag defines a set of navigation links.[link](https://www.w3schools.com/tags/tag_nav.asp)
-* <div> tag defines a division or a section in an HTML document.[link](https://www.w3schools.com/tags/tag_div.asp)
-* <footer> defines a footer for a document or section.[link](https://www.w3schools.com/tags/tag_footer.asp)
-* <a> tag defines a hyperlink, which is used to link from one page to another.[link](https://www.w3schools.com/tags/tag_a.asp)
-* <p> tag defines a paragraph.[link](https://www.w3schools.com/tags/tag_doctype.asp)
+* < nav > ```tag defines a set of navigation links```.[link](https://www.w3schools.com/tags/tag_nav.asp)
+* < div > ```tag defines a division or a section in an HTML document```.[link](https://www.w3schools.com/tags/tag_div.asp)
+* < footer > ```defines a footer for a document or section```.[link](https://www.w3schools.com/tags/tag_footer.asp)
+* < a > tag defines a hyperlink, which is used to link from one page to another.[link](https://www.w3schools.com/tags/tag_a.asp)
+* < p > tag defines a paragraph.[link](https://www.w3schools.com/tags/tag_doctype.asp)
 ## What versions of HTML:
 * HTML 4 released in 1997.
 * XHTML 1.0 released in 2000.
@@ -20,8 +20,10 @@ Some examples codes in Html and which indicate to:
 Each new version was designed to be an improvement on the last (with new elements and attributes added and older code removed).
 ### DOCTYPES
 Because there have been several versions of HTML, each web page should begin with a DOCTYPE declaration to tell a browser which version of HTML the page is using (although browsers usually display the page even if it is not included).
- ### DOCTYPE Example  [link](https://www.w3schools.com/tags/tag_doctype.asp)
-  '''<!DOCTYPE html>
+ 
+ ```
+ DOCTYPE Example  [link](https://www.w3schools.com/tags/tag_doctype.asp)
+ <!DOCTYPE html>
 < <html>
 <head>
 <title>Title of the document</title>
@@ -29,7 +31,8 @@ Because there have been several versions of HTML, each web page should begin wit
 <body>
 The content of the document......
 </body>
-</html>'''
+</html>
+```
 
 ### Attributes:
 
