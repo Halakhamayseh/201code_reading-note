@@ -58,17 +58,9 @@ In js we have three types of date
 3. boolean(true(1),false(0)
 ### Some rules in js:
 1. Variable(var) is a way to pro grammatically reference a previously assigned value. 
-2. to write html in js use document .write( ' <h3>' +greeting + ' </ h3> ');
+2. to write html in js use document .write (<h3>' +greeting + </ h3>);
 3. To link js with html use <script> element,You may see JavaScript in the HTML between opening <script> and closing </script> tags
-4. to write if statement first you should variables are already declared than this the structure of if statement
-if (hourNow > 18) { 
-greeting= 'Good evening!'; 
-else if (hourNow > 12) { 
-greeting = ' Good afternoon!'; 
-else if (hourNow > 0) { 
-greeting = 'Good morni ng!'; 
-else { 
-greeting = 'Welcome! ' ;
+4. to write if statement first you should variables are already declared than this the structure of if statement.
 ### SYNTAX AND GRAMMAR:
  like any new language, there are new words to learn (the vocabulary) and rules for how these can be put together (the grammar and syntax of the language)
  You should write comments to explain what your code does. They help make your code easier to read and understand. This can help you and others who read your code you can use //
