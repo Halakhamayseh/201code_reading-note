@@ -10,9 +10,9 @@ Some examples codes in Html and which indicate to:
 * < ul > for an unordered list
 * <nav> tag defines a set of navigation links.
 * <div> tag defines a division or a section in an HTML document.
-* <footer> tag defines a footer for a document or section.
-* <a> tag defines a hyperlink, which is used to link from one page to another.
-*  <p> tag defines a paragraph.
+* <footer> defines a footer for a document or section.
+* <a> link.
+* <p>  paragraph.
 ## What versions of HTML:
 * HTML 4 released in 1997.
 * XHTML 1.0 released in 2000.
@@ -47,3 +47,4 @@ It's important to understand some qousetions:
 * Wireframes allow you to organize the information thatwill need to go on each page.
 * Design is about communication.
 *  Visual hierarchy helpsvisitors understand what you are trying to tell them. 
+# 
