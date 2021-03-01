@@ -32,5 +32,16 @@ CSS is the language we use to style an HTML document.
  Declarations are made up of two parts: the propertiesof the element that you want to change, and the valuesof those properties. For example, the font-familyproperty setsthe choice of font, and the value arialspecifies Arial as the preferred typeface.`` [link](https://wtf.tw/ref/duckett.pdf)
 # JavaScript
 JavaScript distinguishes between numbers(5,2), strings(""), and true or false values known as Booleans.
-A Boolean variable can only have a value of true or fa 1 se, but this data type is very helpful.
-
+A Boolean variable can only have a value of true or fa1se.
+### Rules variable naming 
+1. The name must begin with a letter, dollar sign ($),or an underscore (_).
+2. The name can contain letters, numbers, dollar sign ($), or an underscore (_).
+3. We cannot use keywords or reserved words.
+4. All variables are case sensitive.
+5. Use a name that describes the kind of information that the variable stores.
+6. Use a capital letter for the first letter of every word after the first word when the variable has more than word.
+### Decisions and Loops
+Decision Making Flowcharts can help us plan for which lines of code should be run next. There are 2 components to a decision :
+1. An expression is evaluated , which return a value
+2. A conditional statement says what to do in a given situation
+We evaluate a situation by comparing one value in the script to what we expect it might to be. The result will be a Boolean (true or false).
