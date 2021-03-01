@@ -27,7 +27,7 @@ CSS is the language we use to style an HTML document.
 * ``An inline element does not start on a new line.``
 * ``An inline element only takes up as much width as necessary.``
 [link](https://www.w3schools.com/html/html_blocks.asp).
-``Different types of selectors allow you to target your
-rules at different elements.
-X Declarations are made up of two parts: the propertiesof the element that you want to change, and the valuesof those properties. For example, the font-familyproperty sets the choice of font, and the value arialspecifies Arial as the preferred typeface.`` [link](https://wtf.tw/ref/duckett.pdf)
+
+``Different types of selectors allow you to target your rules at different elements.
+ Declarations are made up of two parts: the propertiesof the element that you want to change, and the valuesof those properties. For example, the font-familyproperty setsthe choice of font, and the value arialspecifies Arial as the preferred typeface.`` [link](https://wtf.tw/ref/duckett.pdf)
 
