@@ -11,3 +11,7 @@ tag and closing < /p > tag.
 ### Bold, italic
 * <b> **Make a text bold**
 * <i> *Make a text italic*
+Superscript & Subscrip
+```< sup > :The <sup> element is used
+to contain characters that should be superscript suchas the suffixes of dates ormathematical concepts likeraising a number to a power such as 22
+ < sub > : The <sub> element is used to contain characters that shouldbe subscript. It is commonlyused with foot notes or chemicalformulas such as H20.```
