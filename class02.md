@@ -42,6 +42,6 @@ A Boolean variable can only have a value of true or fa1se.
 6. Use a capital letter for the first letter of every word after the first word when the variable has more than word.
 ### Decisions and Loops
 Decision Making Flowcharts can help us plan for which lines of code should be run next. There are 2 components to a decision :
-1. An expression is evaluated , which return a value
-2. A conditional statement says what to do in a given situation
+* An expression is evaluated , which return a value
+* A conditional statement says what to do in a given situation
 We evaluate a situation by comparing one value in the script to what we expect it might to be. The result will be a Boolean (true or false).
