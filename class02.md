@@ -12,8 +12,10 @@ tag and closing < /p > tag.
 * <b> **Make a text bold**
 * <i> *Make a text italic*
 
+### Superscript and Subscrip
+ 
 ```The sup element is used
 to contain characters that should be superscript suchas the suffixes of dates ormathematical concepts likeraising a number to a power such as 22
-The sub element is used to contain characters that shouldbe subscript. It is commonlyused with foot notes or chemicalformulas such as H20.```[link](https://wtf.tw/ref/duckett.pdf)
-  
-## I still writ it and edit not completed yet plz give me a chance to completed , i will maka ASAP
+The sub element is used to contain characters that shouldbe subscript. It is commonlyused with foot notes or chemicalformulas such as H20```[link](https://wtf.tw/ref/duckett.pdf)
+ 
+I 
