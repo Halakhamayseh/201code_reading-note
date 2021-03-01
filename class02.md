@@ -16,4 +16,14 @@ tag and closing < /p > tag.
 `The sup element is used
 to contain characters that should be superscript suchas the suffixes of dates ormathematical concepts likeraising a number to a power such as 22
 The sub element is used to contain characters that shouldbe subscript. It is commonlyused with foot notes or chemicalformulas such as H20`[link](https://wtf.tw/ref/duckett.pdf)
-  
+# What CSS
+CSS is the language we use to style an HTML document.
+### BLOCK and INLINE ELEMENTS
+Block elements:
+* ``A block-level element always starts on a new line.``
+* ``A block-level element always takes up the full width available (stretches out to the left and right as far as it can).``
+* ``A block level element has a top and a bottom margin, whereas an inline element does not.``
+inline element:
+* ``An inline element does not start on a new line.``
+* ``An inline element only takes up as much width as necessary.``
+[link](https://www.w3schools.com/html/html_blocks.asp).
