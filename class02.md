@@ -19,11 +19,15 @@ The sub element is used to contain characters that shouldbe subscript. It is com
 # What CSS
 CSS is the language we use to style an HTML document.
 ### BLOCK and INLINE ELEMENTS
-Block elements:
+### Block elements:
 * ``A block-level element always starts on a new line.``
 * ``A block-level element always takes up the full width available (stretches out to the left and right as far as it can).``
 * ``A block level element has a top and a bottom margin, whereas an inline element does not.``
-inline element:
+### inline element:
 * ``An inline element does not start on a new line.``
 * ``An inline element only takes up as much width as necessary.``
 [link](https://www.w3schools.com/html/html_blocks.asp).
+``Different types of selectors allow you to target your
+rules at different elements.
+X Declarations are made up of two parts: the propertiesof the element that you want to change, and the valuesof those properties. For example, the font-familyproperty sets the choice of font, and the value arialspecifies Arial as the preferred typeface.`` [link](https://wtf.tw/ref/duckett.pdf)
+
