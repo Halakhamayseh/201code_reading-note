@@ -30,4 +30,7 @@ CSS is the language we use to style an HTML document.
 
 ``Different types of selectors allow you to target your rules at different elements.
  Declarations are made up of two parts: the propertiesof the element that you want to change, and the valuesof those properties. For example, the font-familyproperty setsthe choice of font, and the value arialspecifies Arial as the preferred typeface.`` [link](https://wtf.tw/ref/duckett.pdf)
+# JavaScript
+JavaScript distinguishes between numbers(5,2), strings(""), and true or false values known as Booleans.
+A Boolean variable can only have a value of true or fa 1 se, but this data type is very helpful.
 
