@@ -28,3 +28,8 @@ Here you can see that an if … e1se statement allows you to provide two sets of
 * another set if the condition is false.
 ### switch statement
 switch statements do the  same task that else if statements do. But use switch statements when conditions are more. In that case, switch statements perform better than else if  statements,witch evaluates the expression and checks whether it matches with any case. If it matches with any case then statements within that case construct are executed followed by break statement. break statement makes sure that no more case statement gets executed, In case if the expression doesn't match any case value then default case is executed.
+### LOOP CONCEPTS
+* A for loop is loops through a block of code a number of times. stracture for (statement 1; statement 2; statement 3) {}
+``ex for (i = 0; i < 5; i++) {text += "The number is " + i + "<br>";}``
+* A while loop: loops through a block of code as long as a specified condition is true. while (condition) {}
+``ex while (i < 10) {text += "The number is " + i; i++;}``
