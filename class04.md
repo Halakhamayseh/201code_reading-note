@@ -4,6 +4,7 @@ A link ( short for hyperlink ) is an HTML object that allows you to jump to a ne
 href : The value of the href attribute is the page that you want people to go to when they click on the link
 ex:
 ``<a href="https://www.w3schools.com">Visit W3Schools.com!</a>``
+
 Absolute URLs :  This is the web address that you would type into a browser if you wanted to visit that specific page.
 
 Linking to Other Pages on the Same Site : You can use a shorthand known as a relative URL.
