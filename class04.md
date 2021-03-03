@@ -37,7 +37,7 @@ Objects group together a set of variables and functions to create a model of a s
 
 * Work environment readiness  Many companies  that utilize pair programing expect to train fresh hires from CS-degree programs on how they operate to actually deliver a product. Code Fellows graduates who are already familiar with how pairing works can hit the ground  running at a new job, with one less hurdle to overcome.
 ### References:
-JAVASCRIPT [link](https://drive.google.com/file/d/1yCXMmjTfE_E1V3cC5Vf7VvizqVGx5V0Y/view)
-HTML & CSS Design [link](https://wtf.tw/ref/duckett.pdf)
-from https://www.w3schools.com/
-from https://www.codefellows.org/blog/6-reasons-for-pair-programming/
+* JAVASCRIPT [link](https://drive.google.com/file/d/1yCXMmjTfE_E1V3cC5Vf7VvizqVGx5V0Y/view)
+* HTML & CSS Design [link](https://wtf.tw/ref/duckett.pdf)
+* from https://www.w3schools.com/
+* from https://www.codefellows.org/blog/6-reasons-for-pair-programming/
