@@ -51,3 +51,7 @@ Store the first element from the NodeList in a variable called firstItem. (It sa
 *Create a NodeList containing elements that have a class attribute whose value is hot, and store it in the variable elements.
 If that  number  is greating than or equal to one, run the code inside the if statement.
 Get the first element from the NodeList ( it says 0 because index numbers start at Zero).*
+
+### References:
+JAVASCRIPT link
+from https://www.w3schools.com/
