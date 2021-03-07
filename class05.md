@@ -1,14 +1,14 @@
 # Images
-A  picture can say a thousand words , and great images help make the difference between an average - looking site and a really engaging one.
+### A  picture can say a thousand words , and great images help make the difference between an average - looking site and a really engaging one.
 ``< img  src = " your img path " >``.
-we can  add more attributes  like  width  , height
-height  :This specifies the height of the image in pixels.
-width  :This specifies the width of the image in pixels.
-Where to Place Images in Your Code
-Where an  image  is placed in the  code will affect how it  is displayed. Here  are three  examples  of image placement that  produce  different  results :
-before a  paragraph The paragraph  starts  on a  new line after the image.
-inside  the  start of a   paragraphm The first row of  text aligns with the bottom  of the image.
-in  the   middle of a paragraph  The image  is  placed  between the words of the paragraph that it appears  in.
+### we can  add more attributes  like  width  , height
+* height  :This specifies the height of the image in pixels.
+* width  :This specifies the width of the image in pixels.
+### Where to Place Images in Your Code:
+* Where an  image  is placed in the  code will affect how it  is displayed. Here  are three  examples  of image placement that  produce  different  results :
+* before a  paragraph The paragraph  starts  on a  new line after the image.
+* inside  the  start of a   paragraphm The first row of  text aligns with the bottom  of the image.
+* in  the   middle of a paragraph  The image  is  placed  between the words of the paragraph that it appears  in.
 # color
 The color property allows you to specify the  color of text inside an element. You can specify any color in CSS in one of three ways :
 
