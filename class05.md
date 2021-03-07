@@ -41,4 +41,6 @@ CSS treats each  HTML element as if it appears in a box, and the background-colo
 *  lowercase   This causes the text to appear  lowercase.
 ### text-decoration:
 none,underline,overline ,line-through and blink
-
+### References:
+* HTML & CSS Design link
+* from https://www.w3schools.com/
