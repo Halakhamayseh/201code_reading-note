@@ -19,8 +19,10 @@ Constructor notation The new keyword and the object constructor create a blank o
 Updating  an object To  update the value of properties, use dot notation or square brackets. To delete a property, use the delete keyword.
 
 ### Object  : objects are made up of properties and methods
+### Global  Objects
+*A global object is an object that always exists in the global scope . In JavaScript, there’s always a global object defined. In a web browser, when scripts create global variables defined with the var keyword, they’re created as members of the global object.*
 
-###Fuctions and Method :
+### Fuctions and Method :
 
 *Functions : consist of a series of statements that have been grouped together because they perform a specific task*
 
@@ -28,4 +30,9 @@ Updating  an object To  update the value of properties, use dot notation or squa
 
 *Calling a function :having declared the function, you can then execute all of the statements between its curly  braces with ust one line of code .*
 *FUNCTION : is very  helpfull it’s has many benefits , avoid duplicated and it’s reusable (created ones and use it many times.*
- 8Method : same function defintion but in it inside the object.*
+ *Method : same function defintion but in it inside the object.*
+ ### References:
+* JAVASCRIPT link
+* HTML & CSS Design link
+* https://github.com/codefellows/domain_modeling#domain-modeling
+ 
