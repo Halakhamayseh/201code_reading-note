@@ -32,45 +32,7 @@ Liquid Layouts designs stretch and contract as the user increases or decreases t
 The CSS Grid Layout Module offers a grid-based layout system, with rows and columns, making it easier to design web pages without having to use floats and positioning.
 ### CSS Frameworks:
 CSS frameworks aim to make your life easier by providing the code for common tasks, such as creating layout grids, styling forms, creating printer-friendly versions of pages and so on. You can include the CSS framework code in your projects rather than writing the CSS from scratch.
-### a layout example:
-``<!DOCTYPE html
-<html>
-<head>
- <title>Layout</title>
- <link rel="stylesheet" type="text/css" href="css/960_12_col.css" />
- <style type="text/css">
- @font-face {
- font-family: 'QuicksandBook';
- src: url('fonts/Quicksand_Book-webfont.eot');
- src: url('fonts/Quicksand_Book-webfont.eot?#iefix') format('embedded-opentype'),
- url('fonts/Quicksand_Book-webfont.woff') format('woff'),
- url('fonts/Quicksand_Book-webfont.ttf') format('truetype'),
- url('fonts/Quicksand_Book-webfont.svg#QuicksandBook') format('svg');
- font-weight: normal;
- font-style: normal;}
- body {
- color: #ffffff;
- background: #413f3b url("images/bg.jpg");
- font-family: Georgia, "Times New Roman", Times, serif;
- font-size: 90%;
- margin: 0px;
- text-align: center;}
- a {
- color: #b5c1ad;
- text-decoration: none;}
- a:hover {
- color: #ffffff;}
- .header {
- background-image: url("images/bg-header.jpg");
- padding: 0px 0px 0px 0px;
- height: 100px;
- position: fixed;
- top: 0px;
- width: 100%;
- z-index: 50;}
- .nav {
- float: right;
-font-family: QuicksandBook, Helvetica, Arial, sans-serif;``
+### a layout example
  
  ### References:
 * HTML & CSS Design link
