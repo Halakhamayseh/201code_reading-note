@@ -34,6 +34,6 @@ The CSS Grid Layout Module offers a grid-based layout system, with rows and colu
 CSS frameworks aim to make your life easier by providing the code for common tasks, such as creating layout grids, styling forms, creating printer-friendly versions of pages and so on. You can include the CSS framework code in your projects rather than writing the CSS from scratch.
  
  #### References:
-* HTML & CSS Design link
+* HTML & CSS Design [link](https://wtf.tw/ref/duckett.pdf)
 * https://www.w3schools.com/css/css_positioning.asp
 * https://developer.mozilla.org/en-US/docs/Web/CSS/Containing_block
