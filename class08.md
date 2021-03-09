@@ -23,5 +23,59 @@ Resolution refers to the number of dots a screen shows per inch. Some devices ha
 ### Screen Resolution:
 Resolution refers to the number of dots a screen shows per inch. Some devices have a higher resolution than desktop computers and most operating systems allow users to adjust the resolution of their screens.
 ### Page Sizes:
+Because screen sizes and display resolutions vary so much, web designers often try to create pages of around 960-1000 pixels wide (since most users will be able to see designs this wide on their screens).
+### CSS Height and Width:
+The CSS height and width properties are used to set the height and width of an element.
+### Liquid Layouts:
+Liquid Layouts designs stretch and contract as the user increases or decreases the size of their browser window. They tend to use percentages.
+### Layout Grids:
+The CSS Grid Layout Module offers a grid-based layout system, with rows and columns, making it easier to design web pages without having to use floats and positioning.
+### CSS Frameworks:
+CSS frameworks aim to make your life easier by providing the code for common tasks, such as creating layout grids, styling forms, creating printer-friendly versions of pages and so on. You can include the CSS framework code in your projects rather than writing the CSS from scratch.
+### a layout example:
+``<!DOCTYPE html
+<html>
+<head>
+ <title>Layout</title>
+ <link rel="stylesheet" type="text/css" href="css/960_12_col.css" />
+ <style type="text/css">
+ @font-face {
+ font-family: 'QuicksandBook';
+ src: url('fonts/Quicksand_Book-webfont.eot');
+ src: url('fonts/Quicksand_Book-webfont.eot?#iefix') format('embedded-opentype'),
+ url('fonts/Quicksand_Book-webfont.woff') format('woff'),
+ url('fonts/Quicksand_Book-webfont.ttf') format('truetype'),
+ url('fonts/Quicksand_Book-webfont.svg#QuicksandBook') format('svg');
+ font-weight: normal;
+ font-style: normal;}
+ body {
+ color: #ffffff;
+ background: #413f3b url("images/bg.jpg");
+ font-family: Georgia, "Times New Roman", Times, serif;
+ font-size: 90%;
+ margin: 0px;
+ text-align: center;}
+ a {
+ color: #b5c1ad;
+ text-decoration: none;}
+ a:hover {
+ color: #ffffff;}
+ .header {
+ background-image: url("images/bg-header.jpg");
+ padding: 0px 0px 0px 0px;
+ height: 100px;
+ position: fixed;
+ top: 0px;
+ width: 100%;
+ z-index: 50;}
+ .nav {
+ float: right;
+font-family: QuicksandBook, Helvetica, Arial, sans-serif;``
+ 
+ ### References:
+* HTML & CSS Design link
+* https://www.w3schools.com/css/css_positioning.asp
+* https://developer.mozilla.org/en-US/docs/Web/CSS/Containing_block
+
 
 
