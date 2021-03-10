@@ -62,5 +62,10 @@ when user inter data to the form this data will be stored in there variables or 
 * select element: The element that users are interacting with is the text input where they enter the username.
 * spacify event :When users move out of the text input, it loses focus, and the blur event fires on this element.
 * call code 
+ ### References:
+* JAVASCRIPT 
+* HTML & CSS Design 
+* https://www.w3schools.com/
+* https://en.wikipedia.org/wiki/HTML5
 
 
