@@ -52,9 +52,9 @@ Clears the specified rectangular area, making it fully transparent.
 ### Drawing paths
 Now let's look at paths. A path is a list of points, connected by segments of lines that can be of different shapes, curved or not, of different width and of different color. A 
 path, or even a subpath, can be closed. To make shapes using paths, we take some extra steps:
-1. First, you create the path.
-2. Then you use drawing commands to draw into the path.
-3. Once the path has been created, you can stroke or fill the path to render it.
+* First, you create the path.
+* Then you use drawing commands to draw into the path.
+* Once the path has been created, you can stroke or fill the path to render it.
 ### Moving the pen
 One very useful function, which doesn't actually draw anything but becomes part of the path list described above, is the moveTo() function. You can probably best think of this 
 as lifting a pen or pencil from one spot on a piece of paper and placing it on the next.
