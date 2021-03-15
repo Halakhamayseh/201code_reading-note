@@ -23,11 +23,14 @@ To draw a line chart, the first thing we need to do is create a canvas element i
 The great things about Chart.js are that it’s simple to use and really very flexible. Plus, once you’ve mastered the basics here, you’ll discover that there are tons of options 
 listed in the documentation.
 ### Basic usage of canvas
-* At first sight a < canvas > looks like the < img > element, with the only clear difference being that it doesn't have the src and alt attributes. Indeed, the < canvas > 
-element has  only two attributes, width and height. These are both optional and can also be set using DOM properties. When no width and height attributes are specified, the 
-canvas will  initially be 300 pixels wide and 150 pixels high.
-* The id attribute isn't specific to the < canvas > element but is one of the global HTML attributes which can be applied to any HTML element (like class for instance). It is 
- always a good idea to supply an id because this makes it much easier to identify it in a script.
+At first sight a < canvas> looks like the < img> element, with the only clear difference being that it doesn't have the src and alt attributes. Indeed, the < canvas> element has 
+only two attributes, width and height. These are both optional and can also be set using DOM properties. When no width and height attributes are specified, the canvas will 
+initially be 300 pixels wide and 150 pixels high. The element can be sized arbitrarily by CSS, but during rendering the image is scaled to fit its layout size: if the CSS sizing 
+doesn't respect the ratio of the initial canvas, it will appear distorted.
+
+The id attribute isn't specific to the < canvas> element but is one of the global HTML attributes which can be applied to any HTML element (like class for instance). It is 
+always a good idea to supply an id because this makes it much easier to identify it in a script
+
 ### Fallback content
 The < canvas > element differs from an  < img > tag in that, like for < video >, < audio >, or < picture > elements, it is easy to define some fallback content, to be displayed 
  in older browsers not supporting it, like versions of Internet Explorer earlier than version 9 or textual browsers.
