@@ -8,9 +8,11 @@ Chart.js can be integrated with plain JavaScript or with different module loader
 4. Usage
 Chart.js can be integrated with plain JavaScript or with different module loaders. The examples below show how to load Chart.js in different systems.
 ### Charts 
-Charts are far better for displaying data visually than tables and have the added benefit that no one is ever going to press-gang them into use as a layout tool. They’re easier to look at and convey data quickly, but they’re not always easy to create.
+Charts are far better for displaying data visually than tables and have the added benefit that no one is ever going to press-gang them into use as a layout tool. They’re easier 
+to look at and convey data quickly, but they’re not always easy to create.
 ### Setting up
-The first thing we need to do is download Chart.js. Copy the Chart.min.js out of the unzipped folder and into the directory you’ll be working in. Then create a new html page and import the script
+The first thing we need to do is download Chart.js. Copy the Chart.min.js out of the unzipped folder and into the directory you’ll be working in. Then create a new html page and 
+import the script.
 ### Drawing a line chart
 To draw a line chart, the first thing we need to do is create a canvas element in our HTML in which Chart.js can draw our chart. So add this to the body of our HTML page
 ### Drawing a pie chart
@@ -18,21 +20,26 @@ To draw a line chart, the first thing we need to do is create a canvas element i
 2. Next, we need to get the context and to instantiate the chart:
 3. Next we need to create the data. This data is a little different to the line chart because the pie chart is simpler, we just need to supply a value and a color for each 
 ### section:
-The great things about Chart.js are that it’s simple to use and really very flexible. Plus, once you’ve mastered the basics here, you’ll discover that there are tons of options listed in the documentation.
+The great things about Chart.js are that it’s simple to use and really very flexible. Plus, once you’ve mastered the basics here, you’ll discover that there are tons of options 
+listed in the documentation.
 ### Basic usage of canvas
-* At first sight a <canvas> looks like the <img> element, with the only clear difference being that it doesn't have the src and alt attributes. Indeed, the <canvas> element has only two attributes, width and height. These are both optional and can also be set using DOM properties. When no width and height attributes are specified, the canvas will initially be 300 pixels wide and 150 pixels high.
-* The id attribute isn't specific to the <canvas> element but is one of the global HTML attributes which can be applied to any HTML element (like class for instance). It is always a good idea to supply an id because this makes it much easier to identify it in a script.
+* At first sight a <canvas> looks like the <img> element, with the only clear difference being that it doesn't have the src and alt attributes. Indeed, the <canvas> element has 
+ only two attributes, width and height. These are both optional and can also be set using DOM properties. When no width and height attributes are specified, the canvas will 
+ initially be 300 pixels wide and 150 pixels high.
+* The id attribute isn't specific to the <canvas> element but is one of the global HTML attributes which can be applied to any HTML element (like class for instance). It is 
+ always a good idea to supply an id because this makes it much easier to identify it in a script.
 ### Fallback content
-The <canvas> element differs from an <img> tag in that, like for <video>, <audio>, or <picture> elements, it is easy to define some fallback content, to be displayed in older browsers not supporting it, like versions of Internet Explorer earlier than version 9 or textual browsers.
+The < canvas > element differs from an  < img > tag in that, like for < video >, < audio >, or < picture > elements, it is easy to define some fallback content, to be displayed 
+ in older browsers not supporting it, like versions of Internet Explorer earlier than version 9 or textual browsers.
  
-#### The rendering context:The <canvas> element creates a fixed-size drawing surface that exposes one or more rendering contexts.
-  
+#### The rendering context:The < canvas > element creates a fixed-size drawing surface that exposes one or more rendering contexts.
+ 
 #### Checking for support:Scripts can also check for support programmatically by testing for the presence of the getContext() method.
 ### Drawing shapes with canvas
 #### The grid
-Before we can start drawing, we need to talk about the canvas grid or coordinate space. Our HTML skeleton from the previous page had a canvas element 150 pixels wide and 150 pixels high. The origin of this grid is positioned in the top left corner at coordinate (0,0). All elements are placed relative to this origin. So the position of the top left corner of a square becomes x pixels from the left and y pixels from the top, at coordinate (x,y).
-
-
+Before we can start drawing, we need to talk about the canvas grid or coordinate space. Our HTML skeleton from the previous page had a canvas element 150 pixels wide and 150 
+pixels high. The origin of this grid is positioned in the top left corner at coordinate (0,0). All elements are placed relative to this origin. So the position of the top left 
+corner of a square becomes x pixels from the left and y pixels from the top, at coordinate (x,y).
 ### Drawing rectangles
 here are three functions that draw rectangles on the canvas:
 * fillRect(x, y, width, height)
@@ -42,12 +49,14 @@ Draws a rectangular outline.
 * clearRect(x, y, width, height)
 Clears the specified rectangular area, making it fully transparent.
 ### Drawing paths
-Now let's look at paths. A path is a list of points, connected by segments of lines that can be of different shapes, curved or not, of different width and of different color. A path, or even a subpath, can be closed. To make shapes using paths, we take some extra steps:
+Now let's look at paths. A path is a list of points, connected by segments of lines that can be of different shapes, curved or not, of different width and of different color. A 
+path, or even a subpath, can be closed. To make shapes using paths, we take some extra steps:
 1. First, you create the path.
 2. Then you use drawing commands to draw into the path.
 3. Once the path has been created, you can stroke or fill the path to render it.
 ### Moving the pen
-One very useful function, which doesn't actually draw anything but becomes part of the path list described above, is the moveTo() function. You can probably best think of this as lifting a pen or pencil from one spot on a piece of paper and placing it on the next.
+One very useful function, which doesn't actually draw anything but becomes part of the path list described above, is the moveTo() function. You can probably best think of this 
+as lifting a pen or pencil from one spot on a piece of paper and placing it on the next.
 #### moveTo(x, y) :Moves the pen to the coordinates specified by x and y.
 ### Lines
 For drawing straight lines, use the lineTo() method. lineTo(x, y)
@@ -56,7 +65,8 @@ To draw arcs or circles, we use the arc() or arcTo() methods:arc(x, y, radius, s
 ### Bezier and quadratic curves
 The next type of paths available are Bézier curves, available in both cubic and quadratic varieties. These are generally used to draw complex organic shapes.
 ### Path2D objects
- there can be a series of paths and drawing commands to draw objects onto your canvas. To simplify the code and to improve performance, the Path2D object, available in recent versions of browsers
+ there can be a series of paths and drawing commands to draw objects onto your canvas. To simplify the code and to improve performance, the Path2D object, available in recent 
+ versions of browsers.
 ### Using SVG paths
  is using SVG path data to initialize paths on your canvas. This might allow you to pass around path data and re-use them in both, SVG and canvas.
 ## Applying styles and colors
@@ -64,7 +74,8 @@ The next type of paths available are Bézier curves, available in both cubic and
 * fillStyle = color   to sets the style used when filling shapes.
 * strokeStyle = color  to sets the style for shapes' outlines.
 ### Transparency
- we can also draw semi-transparent (or translucent) shapes. This is done by either setting the globalAlpha property or by assigning a semi-transparent color to the stroke and/or fill style. ```globalAlpha = transparencyValue```
+ we can also draw semi-transparent (or translucent) shapes. This is done by either setting the globalAlpha property or by assigning a semi-transparent color to the stroke and/or 
+ fill style. ```globalAlpha = transparencyValue```
 ### Using rgba() 
 Using rgba() gives you a little more control and flexibility because we can set the fill and stroke style individually.
 ### Line styles
@@ -91,9 +102,10 @@ The setLineDash method and the lineDashOffset property specify the dash pattern 
 1. createLinearGradient(x1, y1, x2, y2)
 2. Creates a linear gradient object with a starting point of (x1, y1) and an end point of (x2, y2).
 3. createRadialGradient(x1, y1, r1, x2, y2, r2)
-4. Creates a radial gradient. The parameters represent two circles, one with its center at (x1, y1)  and a radius of r1, and the other with its center at (x2, y2) with a radius of r2.
-5. createConicGradient(angle, x, y)
-6. Creates a conic gradient object with a starting angle of angle in radians, at the position (x, y).
+4. Creates a radial gradient. The parameters represent two circles, one with its center at (x1, y1)  and a radius of r1, and the other with its center at (x2, y2) with a radius 
+of r2.
+6. createConicGradient(angle, x, y)
+7. Creates a conic gradient object with a starting angle of angle in radians, at the position (x, y).
 ### Patterns
 In one of the examples on the previous page, we used a series of loops to create a pattern of images. There is, however, a much simpler method: the createPattern() method.
 * repeat
@@ -132,4 +144,3 @@ In the case you need to obtain more details about the text, the following method
 * (https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Drawing_shapes)
 * (https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Applying_styles_and_colors)
 * (https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Drawing_text)
-
