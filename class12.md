@@ -125,5 +125,11 @@ Baseline alignment setting. Possible values: top, hanging, middle, alphabetic, i
 Directionality. Possible values: ltr, rtl, inherit. The default value is inherit.
 ### Advanced text measurements
 In the case you need to obtain more details about the text, the following method allows you to measure it. measureText().
-
+### Refernces:
+* (https://www.webdesignerdepot.com/2013/11/easily-create-stunning-animated-charts-with-chart-js/)
+* (https://www.chartjs.org/docs/latest/)
+* (https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Basic_usage)
+* (https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Drawing_shapes)
+* (https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Applying_styles_and_colors)
+* (https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Drawing_text)
 
