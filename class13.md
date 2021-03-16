@@ -30,10 +30,10 @@ the present condition of HTML5 Storage is surprisingly rosy. A new API has been 
 PROPERTY TYPE DESCRIPTION key string the named key that was added, removed, or modified oldValue any the previous value (now overwritten), or null if a new item was added newValue any the new value, or null if an item was removed url* string the page which called a method that triggered this change
 ### LIMITATIONS IN CURRENT BROWSERS
 In talking about the history of local storage hacks using third-party plugins, I made a point of mentioning the limitations of each technique, such as storage limits. I just realized that I haven’t mentioned anything about the limitations of the now-standardized HTML5 Storage. I’ll give you the answers first, then explain them. The answers, in order of importance, are “5 megabytes,” “QUOTA_EXCEEDED_ERR,” and “no.”
-### Revernce
-* (http://diveinto.html5doctor.com/storage.html)
 ### BEYOND NAMED KEY-VALUE PAIRS: COMPETING VISIONS
 While the past is littered with hacks and workarounds, the present condition of HTML5 Storage is surprisingly rosy. A new API has been standardized and implemented across all major browsers, platforms, and devices. As a web developer, that’s just not something you see every day, is it? But there is more to life than “5 megabytes of named key/value pairs,” and the future of persistent local storage is… how shall I put it… well, there are competing visions.
+### Revernce
+* (http://diveinto.html5doctor.com/storage.html)
 
 
 
