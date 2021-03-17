@@ -1,4 +1,4 @@
-##What Google Learned From Its Quest to Build the Perfect Team .
+## What Google Learned From Its Quest to Build the Perfect Team .
 New research reveals surprising truths about why some work groups thrive and others falter.
 ### The article is about Julia Rozovsky story ,
 she wasn’t sure what she wanted to do with her life,she worked first in a consulting firm then researcher for two professors at Harvard then she wanted to find a job that was more social so she work in the Yale School of Management.she was assigned to a study group carefully engineered by the school to foster tight bonds.
